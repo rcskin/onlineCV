@@ -1,0 +1,60 @@
+
+body {
+  text-align: center;
+  padding: 50px;
+  margin:100px;
+  border: 2px solid #515050
+}
+
+li {
+  list-style-type:  none;
+  margin-right: 35px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+p {
+  font-style: italic;
+}
+
+.cv-skills {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.front-end,
+.back-end {
+  flex-basis: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.front-end {
+  margin-right: 5px;
+}
+
+.back-end {
+  margin-left: 5px;
+}
+
+.cv-skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.front-end li,
+.back-end li {
+  margin: 5px 0;
+}
+
+.cv-skills h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
